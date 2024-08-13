@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { ImageTextBoxType1Component } from './components/ImageTextBoxType1/ImageTextBoxType1.component';
-import { TextBoxType1Component } from './components/TextBoxType1/TextBoxType1.component';
+import { ImageTextBoxComponent } from './components/ImageTextBox/ImageTextBox.component';
+import { TextBoxComponent } from './components/TextBox/TextBox.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [ RouterOutlet, ImageTextBoxType1Component, TextBoxType1Component ],
+  imports: [ RouterOutlet, ImageTextBoxComponent, TextBoxComponent ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

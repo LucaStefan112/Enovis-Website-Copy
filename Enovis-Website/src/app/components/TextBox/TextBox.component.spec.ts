@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TextBoxType1Component } from './TextBoxType1.component';
+import { TextBoxComponent } from './TextBox.component';
 
-describe('TextBoxType1Component', () => {
-  let component: TextBoxType1Component;
-  let fixture: ComponentFixture<TextBoxType1Component>;
+describe('TextBoxComponent', () => {
+  let component: TextBoxComponent;
+  let fixture: ComponentFixture<TextBoxComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [TextBoxType1Component]
+      imports: [TextBoxComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(TextBoxType1Component);
+    fixture = TestBed.createComponent(TextBoxComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
