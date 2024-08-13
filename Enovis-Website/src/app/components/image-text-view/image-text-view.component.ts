@@ -4,8 +4,8 @@ import { Component, Input } from '@angular/core';
   selector: 'app-image-text-view',
   standalone: true,
   imports: [],
-  templateUrl: './ImageTextView.component.html',
-  styleUrl: './ImageTextView.component.css'
+  templateUrl: './image-text-view.component.html',
+  styleUrl: './image-text-view.component.css'
 })
 export class ImageTextViewComponent {
   @Input() src: string = '';

@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ImageTextBoxComponent } from './ImageTextBox.component';
+import { ImageTextViewComponent } from './image-text-view.component';
 
-describe('ImageTextBoxComponent', () => {
-  let component: ImageTextBoxComponent;
-  let fixture: ComponentFixture<ImageTextBoxComponent>;
+describe('ImageTextViewComponent', () => {
+  let component: ImageTextViewComponent;
+  let fixture: ComponentFixture<ImageTextViewComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ImageTextBoxComponent]
+      imports: [ImageTextViewComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ImageTextBoxComponent);
+    fixture = TestBed.createComponent(ImageTextViewComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

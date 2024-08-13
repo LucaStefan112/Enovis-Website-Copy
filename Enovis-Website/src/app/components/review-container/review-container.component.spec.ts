@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TextBoxComponent } from './TextBox.component';
+import { ReviewContainerComponent } from './review-container.component';
 
-describe('TextBoxComponent', () => {
-  let component: TextBoxComponent;
-  let fixture: ComponentFixture<TextBoxComponent>;
+describe('ReviewContainerComponent', () => {
+  let component: ReviewContainerComponent;
+  let fixture: ComponentFixture<ReviewContainerComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [TextBoxComponent]
+      imports: [ReviewContainerComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(TextBoxComponent);
+    fixture = TestBed.createComponent(ReviewContainerComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
