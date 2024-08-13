@@ -4,11 +4,18 @@ import { ImageTextBoxComponent } from './components/image-text-box/image-text-bo
 import { TextBoxComponent } from './components/text-box/text-box.component';
 import { ImageTextViewComponent } from './components/image-text-view/image-text-view.component';  
 import { ReviewContainerComponent } from './components/review-container/review-container.component';
+import { ContactFormComponent } from './components/contact-form/contact-form.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [ RouterOutlet, ImageTextBoxComponent, TextBoxComponent, ImageTextViewComponent, ReviewContainerComponent ],
+  imports: [ 
+    RouterOutlet, 
+    ImageTextBoxComponent, 
+    TextBoxComponent, 
+    ImageTextViewComponent, 
+    ReviewContainerComponent, 
+    ContactFormComponent ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'] 
 })
