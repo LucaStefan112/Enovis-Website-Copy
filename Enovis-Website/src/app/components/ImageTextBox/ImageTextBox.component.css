@@ -1,0 +1,23 @@
+:host {
+    display: block;
+    height: 12.2cm;
+    width: 400px;
+    background-color: white;
+    border-radius: 5% 5% 0 0;
+}
+
+img {
+    width: 400px;
+    height: 7cm;
+    display: block;
+    border-radius: 5% 5% 0 0;
+}
+
+p {
+    padding: 1.5rem;
+    padding-top: 0rem;
+}
+
+h3 {
+    padding: 1.5rem;
+}
