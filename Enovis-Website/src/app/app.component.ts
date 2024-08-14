@@ -6,6 +6,7 @@ import { ImageTextViewComponent } from './components/image-text-view/image-text-
 import { ReviewContainerComponent } from './components/review-container/review-container.component';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { TitleTextsImageComponent } from './components/title-texts-image/title-texts-image.component';
+import { TitleTextComponent } from './components/title-text/title-text.component';
 
 @Component({
   selector: 'app-root',
@@ -17,7 +18,8 @@ import { TitleTextsImageComponent } from './components/title-texts-image/title-t
     ImageTextViewComponent, 
     ReviewContainerComponent, 
     ContactFormComponent,
-    TitleTextsImageComponent
+    TitleTextsImageComponent,
+    TitleTextComponent
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'] 
