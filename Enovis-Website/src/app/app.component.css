@@ -1,0 +1,7 @@
+.components-div {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+    padding: 80px 0;
+}
