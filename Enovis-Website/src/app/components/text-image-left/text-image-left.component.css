@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: center;
     background-color: white;
+    gap: 5rem;
 }
 
 div {
@@ -17,25 +18,17 @@ div {
     padding-right: 0rem;
 }
 
-h3 {
-    font-size: 3rem;
-}
-
-text {
-    padding: 1rem;
-}
-
-iframe {
+img {
     width: 600px;
     height: 400px;
 }
 
-.mail-info-div {
-    padding-top: 0rem;
+strong {
+    font-size: 1.6rem;
+    padding: 1rem;
 }
 
-.info-div {
-    width: 55%;
+p {
+    padding: 1rem;
     padding-top: 0rem;
-    padding-bottom: 5rem;
 }

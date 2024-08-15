@@ -11,6 +11,8 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { CommonFooterComponent } from './components/common-footer/common-footer.component';
 import { SecundaryFooterComponent } from './components/secundary-footer/secundary-footer.component';
 import { ContactTextMapComponent } from './components/contact-text-map/contact-text-map.component';
+import { TextImageLeftComponent } from './components/text-image-left/text-image-left.component';
+import { TextImageRightComponent } from './components/text-image-right/text-image-right.component';
 
 @Component({
   selector: 'app-root',
@@ -27,7 +29,9 @@ import { ContactTextMapComponent } from './components/contact-text-map/contact-t
     NavBarComponent,
     CommonFooterComponent,
     SecundaryFooterComponent,
-    ContactTextMapComponent
+    ContactTextMapComponent,
+    TextImageLeftComponent,
+    TextImageRightComponent
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'] 
