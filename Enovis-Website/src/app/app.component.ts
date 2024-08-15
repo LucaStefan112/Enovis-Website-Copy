@@ -7,6 +7,7 @@ import { ReviewContainerComponent } from './components/review-container/review-c
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { TitleTextsImageComponent } from './components/title-texts-image/title-texts-image.component';
 import { TitleTextComponent } from './components/title-text/title-text.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 
 @Component({
   selector: 'app-root',
@@ -19,7 +20,8 @@ import { TitleTextComponent } from './components/title-text/title-text.component
     ReviewContainerComponent, 
     ContactFormComponent,
     TitleTextsImageComponent,
-    TitleTextComponent
+    TitleTextComponent,
+    NavBarComponent
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'] 

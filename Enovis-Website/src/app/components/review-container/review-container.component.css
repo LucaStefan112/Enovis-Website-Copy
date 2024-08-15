@@ -10,7 +10,6 @@
 }
 
 .text-p {
-    color: gray;
     padding: 1.5rem 3rem 2.4rem 3rem;
 }
 
@@ -37,7 +36,6 @@ img {
 }
 
 .location-p {
-    color: gray;
     padding: 0px;
     font-size: medium;
 }
