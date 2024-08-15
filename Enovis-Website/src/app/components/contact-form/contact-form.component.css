@@ -20,28 +20,3 @@
     flex-direction: column;
     width: 90%;
 }
-
-input, textarea {
-    border: 1px solid lightgray;
-    border-radius: 10px;
-    width: 100%;
-    padding: 0.8rem;
-    font-size: large;
-    width: 100%;
-}
-
-input:focus, textarea:focus {
-    border: 1px solid black;
-    outline: none;
-}
-
-button {
-    width: 50%;
-    border: 0px;
-    align-self: center;
-    background-color: rgb(255, 5, 122);
-    border-radius: 5rem;
-    color: white;
-    padding: 0.8rem;
-    font-size: large;
-}

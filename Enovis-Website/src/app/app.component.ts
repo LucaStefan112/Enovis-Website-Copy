@@ -8,6 +8,7 @@ import { ContactFormComponent } from './components/contact-form/contact-form.com
 import { TitleTextsImageComponent } from './components/title-texts-image/title-texts-image.component';
 import { TitleTextComponent } from './components/title-text/title-text.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { CommonFooterComponent } from './components/common-footer/common-footer.component';
 
 @Component({
   selector: 'app-root',
@@ -21,7 +22,8 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
     ContactFormComponent,
     TitleTextsImageComponent,
     TitleTextComponent,
-    NavBarComponent
+    NavBarComponent,
+    CommonFooterComponent
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'] 
