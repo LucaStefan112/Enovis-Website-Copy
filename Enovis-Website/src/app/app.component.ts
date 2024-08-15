@@ -9,6 +9,7 @@ import { TitleTextsImageComponent } from './components/title-texts-image/title-t
 import { TitleTextComponent } from './components/title-text/title-text.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { CommonFooterComponent } from './components/common-footer/common-footer.component';
+import { SecundaryFooterComponent } from './components/secundary-footer/secundary-footer.component';
 
 @Component({
   selector: 'app-root',
@@ -23,7 +24,8 @@ import { CommonFooterComponent } from './components/common-footer/common-footer.
     TitleTextsImageComponent,
     TitleTextComponent,
     NavBarComponent,
-    CommonFooterComponent
+    CommonFooterComponent,
+    SecundaryFooterComponent
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'] 
