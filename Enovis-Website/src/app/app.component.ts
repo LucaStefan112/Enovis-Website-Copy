@@ -10,6 +10,7 @@ import { TitleTextComponent } from './components/title-text/title-text.component
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { CommonFooterComponent } from './components/common-footer/common-footer.component';
 import { SecundaryFooterComponent } from './components/secundary-footer/secundary-footer.component';
+import { ContactTextMapComponent } from './components/contact-text-map/contact-text-map.component';
 
 @Component({
   selector: 'app-root',
@@ -25,7 +26,8 @@ import { SecundaryFooterComponent } from './components/secundary-footer/secundar
     TitleTextComponent,
     NavBarComponent,
     CommonFooterComponent,
-    SecundaryFooterComponent
+    SecundaryFooterComponent,
+    ContactTextMapComponent
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'] 
