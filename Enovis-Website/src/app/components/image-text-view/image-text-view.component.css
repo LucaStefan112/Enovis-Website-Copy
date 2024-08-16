@@ -8,6 +8,8 @@
 
 p {
     padding: 1rem;
+    font-size: 1.1rem;
+    padding-top: 0rem;
 }
 
 img {
@@ -17,11 +19,12 @@ img {
 h3 {
     padding: 1rem;
     padding-bottom: 0rem;
+    font-size: 1.6rem;
 }
 
 strong {
     position: absolute;
     font-size: 2rem;
     right: 20px;
-    bottom: 105px;
+    bottom: 85px;
 }

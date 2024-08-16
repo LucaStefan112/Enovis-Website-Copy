@@ -9,10 +9,11 @@
 
 p {
     width: 50%;
-    color: white;
+    color: var(--color);
     text-align: center;
 }
 
 h1 {
-    color: white;
+    color: var(--color);
+    font-size: 3rem;
 }
