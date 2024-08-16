@@ -5,11 +5,12 @@ import { ContactFormComponent } from './components/contact-form/contact-form.com
 import { ServicesComponent } from './pages/services/services.component';
 import { SoftwareSolutionsComponent } from './pages/software-solutions/software-solutions.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { ClarevoComponent } from './pages/clarevo/clarevo.component';
 
 export const routes: Routes = [
     { path: '', component: HomeComponent },
     { path: 'services', component: ServicesComponent },
     { path: 'contact', component: ContactComponent },
     { path: 'software-solutions', component: SoftwareSolutionsComponent },
-    { path: 'clarevo', component: ContactFormComponent }
+    { path: 'clarevo', component: ClarevoComponent }
 ];
