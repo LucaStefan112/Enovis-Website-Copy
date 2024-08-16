@@ -1,5 +1,5 @@
 :host {
-    background-color: white;
+    background-color: transparent;
     width: 1224px;
     display: flex;
     flex-direction: column;
@@ -9,5 +9,10 @@
 
 p {
     width: 50%;
-    text-align: center; /* Center the text inside the p */
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color: white;
 }

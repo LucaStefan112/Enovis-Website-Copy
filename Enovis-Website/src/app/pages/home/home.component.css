@@ -52,14 +52,14 @@ app-title-texts-image {
     padding-right: 17.5%;
 }
 
-.main-expertize-div {
+.expertize-main-div {
     background-color: rgb(59, 103, 187);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 5rem;
 }
-.secundary-expertize-div {
+.expertize-secundary-div {
     display: flex;
     justify-content: center;
     padding: 5rem;
