@@ -14,6 +14,7 @@ import { ContactTextMapComponent } from './components/contact-text-map/contact-t
 import { TextImageLeftComponent } from './components/text-image-left/text-image-left.component';
 import { TextImageRightComponent } from './components/text-image-right/text-image-right.component';
 import { ServicesComponent } from './pages/services/services.component';
+import { SoftwareSolutionsComponent } from './pages/software-solutions/software-solutions.component';
 
 @Component({
   selector: 'app-root',
@@ -33,7 +34,8 @@ import { ServicesComponent } from './pages/services/services.component';
     ContactTextMapComponent,
     TextImageLeftComponent,
     TextImageRightComponent,
-    ServicesComponent
+    ServicesComponent,
+    SoftwareSolutionsComponent
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'] 

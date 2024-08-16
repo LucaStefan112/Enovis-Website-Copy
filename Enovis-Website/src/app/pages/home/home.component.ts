@@ -5,6 +5,7 @@ import { TitleTextComponent } from '../../components/title-text/title-text.compo
 import { ImageTextBoxComponent } from '../../components/image-text-box/image-text-box.component';
 import { ImageTextViewComponent } from '../../components/image-text-view/image-text-view.component';
 import { SecundaryFooterComponent } from '../../components/secundary-footer/secundary-footer.component';
+import { SolutionsComponentComponent } from '../../components/solutions-component/solutions-component.component';
 
 @Component({
   selector: 'app-home',
@@ -16,7 +17,8 @@ import { SecundaryFooterComponent } from '../../components/secundary-footer/secu
     ImageTextBoxComponent, 
     TitleTextComponent, 
     ImageTextViewComponent,
-    SecundaryFooterComponent
+    SecundaryFooterComponent,
+    SolutionsComponentComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'

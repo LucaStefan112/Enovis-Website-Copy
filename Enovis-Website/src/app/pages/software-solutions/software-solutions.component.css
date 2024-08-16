@@ -1,0 +1,16 @@
+:host {
+    display: block;
+    margin-top: 91px;
+    width: 100%;
+}
+
+app-title-texts-image {
+    width: 65%;
+    padding-bottom: 6rem;
+    padding-left: 17.5%;
+    padding-right: 17.5%;
+    padding-top: 3rem;
+}
+
+app-solutions-component {
+}
