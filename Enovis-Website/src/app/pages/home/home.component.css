@@ -3,6 +3,7 @@ video {
     height: 1070px;
     filter: brightness(60%);
     z-index: 1;
+    object-fit: cover;
 }
 .banner-main-div {
     position: relative;
