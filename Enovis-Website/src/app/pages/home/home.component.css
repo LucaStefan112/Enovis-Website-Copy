@@ -1,0 +1,67 @@
+video {
+    width: 100%;
+    height: 1070px;
+    filter: brightness(60%);
+    z-index: 1;
+}
+.banner-main-div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 91px;
+}
+.banner-texts-boxes-div {
+    display: flex;
+    flex-direction: row;
+}
+.banner-title, .banner-motto, .banner-contact-button, .banner-texts-boxes-div {
+    z-index: 2;
+    position: absolute;
+}
+.banner-title {
+    color: white;
+    top: 40px;
+    font-size: 4rem;
+    width: 40%;
+    text-align: center;
+}
+.banner-motto {
+    color: white;
+    top: 320px;
+}
+.banner-contact-button {
+    color: white;
+    top: 430px;
+    width: 10%;
+    background-color: transparent;
+    border: 1px solid white;
+}
+.banner-texts-boxes-div {
+    top: 560px;
+    gap: 1rem;
+}
+
+
+
+app-title-texts-image {
+    width: 65%;
+    padding: 2.5rem;
+    padding-left: 17.5%;
+    padding-right: 17.5%;
+}
+
+.main-expertize-div {
+    background-color: rgb(59, 103, 187);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+}
+.secundary-expertize-div {
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    gap: 1rem;
+}
