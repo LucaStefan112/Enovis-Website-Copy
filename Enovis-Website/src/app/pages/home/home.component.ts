@@ -9,7 +9,8 @@ import { SecundaryFooterComponent } from '../../components/secundary-footer/secu
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [ TextBoxComponent, 
+  imports: [ 
+    TextBoxComponent, 
     TitleTextsImageComponent, 
     TitleTextComponent, 
     ImageTextBoxComponent, 
