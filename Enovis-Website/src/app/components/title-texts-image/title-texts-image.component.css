@@ -1,0 +1,39 @@
+:host {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 20px;
+}
+
+h1 {
+    padding: 2rem;
+    padding-bottom: 0rem;
+    align-self: center;
+}
+
+.text-box-div {
+    height: 200px;
+    width: 540px;
+    background-color: white;
+}
+
+p {
+    padding: 1.5rem;
+    padding-top: 0rem;
+}
+
+h3 {
+    padding: 1.5rem;
+}
+
+.text-boxes-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    background-color: white;
+}
+
+img {
+    border-radius: 20px;
+}

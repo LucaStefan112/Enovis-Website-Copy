@@ -5,8 +5,8 @@ import { Component, HostBinding, Input } from '@angular/core';
   selector: 'app-text-box',
   standalone: true,
   imports: [ CommonModule ],
-  templateUrl: './TextBox.component.html',
-  styleUrl: './TextBox.component.css'
+  templateUrl: './text-box.component.html',
+  styleUrl: './text-box.component.css'
 })
 export class TextBoxComponent {
   @Input() text: string = 'Place your text here.';

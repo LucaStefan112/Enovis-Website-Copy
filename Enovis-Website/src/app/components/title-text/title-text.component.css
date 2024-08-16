@@ -1,0 +1,13 @@
+:host {
+    background-color: white;
+    width: 1224px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+p {
+    width: 50%;
+    text-align: center; /* Center the text inside the p */
+}
