@@ -1,8 +1,8 @@
 :host {
     display: flex;
     padding: 5rem;
-    padding-left: 20rem;
-    padding-right: 20rem;
+    padding-left: 50rem;
+    padding-right: 50rem;
     align-items: center;
     justify-content: center;
     background-color: white;
@@ -11,14 +11,14 @@
 div {
     display: flex;
     flex-direction: column;
-    gap: 0.3rem;
-    padding: 1rem;
-    width: 70%;
-    padding-right: 0rem;
 }
 
 h3 {
-    font-size: 3rem;
+        margin-bottom: 0.6rem;
+}
+
+strong {
+    font-size: 16px;
 }
 
 text {
@@ -30,12 +30,13 @@ iframe {
     height: 400px;
 }
 
-.mail-info-div {
-    padding-top: 0rem;
+.info-div {
+    gap: 3rem;
+    width: 30%;
+    margin-bottom: 7rem;
+    margin-right: 10rem;
 }
 
-.info-div {
-    width: 55%;
-    padding-top: 0rem;
-    padding-bottom: 5rem;
+.adress-mail-div {
+    gap: 1rem;
 }

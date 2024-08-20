@@ -7,13 +7,14 @@
     align-items: center;
 }
 
-p {
-    width: 50%;
-    color: var(--color);
+h3, p {
     text-align: center;
 }
 
-h1 {
+h3 {
     color: var(--color);
-    font-size: 3rem;
+}
+
+p {
+    width: 50%;
 }

@@ -12,4 +12,16 @@ export class TitleTextComponent {
   @Input() title: string = '';
   @Input() text: string = '';
   @Input() color: string = '';
+  
+  isPColorChangeing: boolean= false;
+
+  ngOnChanges() {
+    if (this.color == 'black') {
+      this.isPColorChangeing = false;
+    }
+    else 
+    {
+      this.isPColorChangeing = true;
+    }
+  }
 }

@@ -2,36 +2,42 @@
     background-color: white;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
-h1 {
-    padding: 2rem;
-    padding-bottom: 0rem;
+h3 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     align-self: center;
 }
 
 .text-box-div {
-    height: 200px;
-    width: 540px;
+    height: 150px;
+    width: 550px;
     background-color: white;
-}
-
-p {
-    padding: 1.5rem;
-    padding-top: 0rem;
-}
-
-h3 {
-    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    align-self: center;
 }
 
 .text-boxes-container {
     display: flex;
     flex-direction: row;
-    gap: 5rem;
+    gap: 8rem;
     background-color: white;
+    height: 150px;
+    padding: 1rem;
 }
 
 img {
     border-radius: 20px;
+    width: 1224px;
+    height: 440px;
+    align-self: center;
+}
+
+p {
+    color: gray;
+    width: 90%;
 }

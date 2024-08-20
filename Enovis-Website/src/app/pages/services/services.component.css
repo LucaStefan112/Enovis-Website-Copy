@@ -15,9 +15,7 @@
 
 .software-solutions-div {
     display: flex;
-    gap: 1rem;
-}
-
-.software-solutions-div {
+    gap: 0.7rem;
     padding: 2.5rem;
+    padding-bottom: 1.5rem;
 }

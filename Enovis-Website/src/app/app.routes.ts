@@ -8,7 +8,8 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { ClarevoComponent } from './pages/clarevo/clarevo.component';
 
 export const routes: Routes = [
-    { path: '', component: HomeComponent },
+    { path: '', redirectTo: 'home', pathMatch: 'full' },
+    { path: 'home', component: HomeComponent },
     { path: 'services', component: ServicesComponent },
     { path: 'contact', component: ContactComponent },
     { path: 'software-solutions', component: SoftwareSolutionsComponent },

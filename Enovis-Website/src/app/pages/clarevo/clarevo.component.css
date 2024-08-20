@@ -8,9 +8,11 @@
 
 app-title-texts-image {
     width: 60%;
+    padding-bottom: 5rem;
 }
 
 h1 {
     font-size: 4rem;
     padding: 5rem;
+    color: black;
 }

@@ -1,7 +1,7 @@
 :host {
     display: block;
     width: 336px;
-    height: 193px;
+    height: 157px;
     padding: 2rem;
 
     text-align: center;
@@ -11,12 +11,7 @@
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-h3 
-{ 
-    font-weight: 600;
+p, strong { 
     color: white; 
 }
 
-p { 
-    color: white; 
-}

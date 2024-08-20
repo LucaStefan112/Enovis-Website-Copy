@@ -32,12 +32,11 @@ img {
     flex-direction: column;
 }
 
-.name-h6 {
+.location-p {
     padding: 0px;
     font-size: medium;
 }
 
-.location-p {
-    padding: 0px;
-    font-size: medium;
+strong {
+    font-size: 16px;
 }

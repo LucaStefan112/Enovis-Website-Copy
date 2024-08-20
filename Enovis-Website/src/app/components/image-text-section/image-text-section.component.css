@@ -1,5 +1,7 @@
 :host {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
     width: 400px;
     height: 400px;
     background-color: white;
@@ -7,14 +9,9 @@
 
 img {
     border-radius: 20px;
+    margin-bottom: 1rem;
 }
 
-p, h3 {
-    padding: 0.5rem;
-    width: 100%;
-}
-
-h3 {
-    padding-bottom: 0rem;
-    padding-top: 1rem;
+p {
+    width: 90%;
 }

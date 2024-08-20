@@ -6,6 +6,7 @@ import { ImageTextBoxComponent } from '../../components/image-text-box/image-tex
 import { ImageTextViewComponent } from '../../components/image-text-view/image-text-view.component';
 import { SecundaryFooterComponent } from '../../components/secundary-footer/secundary-footer.component';
 import { SolutionsComponentComponent } from '../../components/solutions-component/solutions-component.component';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -18,7 +19,8 @@ import { SolutionsComponentComponent } from '../../components/solutions-componen
     TitleTextComponent, 
     ImageTextViewComponent,
     SecundaryFooterComponent,
-    SolutionsComponentComponent
+    SolutionsComponentComponent,
+    RouterModule
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
