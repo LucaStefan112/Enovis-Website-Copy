@@ -1,21 +1,19 @@
 :host {
     display: flex;
-    padding: 5rem;
+    padding: 2.5rem;
     padding-left: 20rem;
-    padding-right: 20rem;
+    padding-right: 22rem;
     align-items: center;
     justify-content: center;
     background-color: white;
-    gap: 5rem;
 }
 
 div {
     display: flex;
     flex-direction: column;
-    gap: 0.3rem;
+    gap: 1rem;
     padding: 1rem;
     width: 70%;
-    padding-right: 0rem;
 }
 
 img {
@@ -23,12 +21,9 @@ img {
     height: 400px;
 }
 
-strong {
-    font-size: 1.6rem;
-    padding: 1rem;
-}
-
 p {
+    width: 80%;
     padding: 1rem;
+    padding-left: 0rem;
     padding-top: 0rem;
 }

@@ -13,6 +13,9 @@ import { SecundaryFooterComponent } from './components/secundary-footer/secundar
 import { ContactTextMapComponent } from './components/contact-text-map/contact-text-map.component';
 import { TextImageLeftComponent } from './components/text-image-left/text-image-left.component';
 import { TextImageRightComponent } from './components/text-image-right/text-image-right.component';
+import { ServicesComponent } from './pages/services/services.component';
+import { SoftwareSolutionsComponent } from './pages/software-solutions/software-solutions.component';
+import { ClarevoComponent } from './pages/clarevo/clarevo.component';
 
 @Component({
   selector: 'app-root',
@@ -31,7 +34,10 @@ import { TextImageRightComponent } from './components/text-image-right/text-imag
     SecundaryFooterComponent,
     ContactTextMapComponent,
     TextImageLeftComponent,
-    TextImageRightComponent
+    TextImageRightComponent,
+    ServicesComponent,
+    SoftwareSolutionsComponent,
+    ClarevoComponent
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'] 

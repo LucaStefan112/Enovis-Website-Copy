@@ -1,5 +1,5 @@
 :host {
-    background-color: white;
+    background-color: transparent;
     width: 1224px;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,14 @@
     align-items: center;
 }
 
+h3, p {
+    text-align: center;
+}
+
+h3 {
+    color: var(--color);
+}
+
 p {
     width: 50%;
-    text-align: center; /* Center the text inside the p */
 }

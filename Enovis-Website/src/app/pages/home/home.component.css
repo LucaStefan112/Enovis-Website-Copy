@@ -1,0 +1,106 @@
+:host {
+    display: grid;
+}
+
+video {
+    width: 100%;
+    height: 1070px;
+    filter: brightness(60%);
+    z-index: 1;
+    object-fit: cover;
+}
+.banner-main-div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 91px;
+    opacity: 0.98;
+}
+.banner-texts-boxes-div {
+    display: flex;
+    flex-direction: row;
+}
+.banner-title, .banner-motto, .banner-contact-button, .banner-texts-boxes-div {
+    z-index: 2;
+    position: absolute;
+}
+.banner-title {
+    top: 80px;
+    width: 40%;
+    text-align: center;
+}
+.banner-motto {
+    color: white;
+    top: 350px;
+    
+}
+.banner-contact-button {
+    color: white;
+    top: 458px;
+    width: 192px;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 500;
+    border-radius: 28px;
+}
+.banner-contact-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.banner-texts-boxes-div {
+    top: 580px;
+    gap: 0.7rem;
+}
+
+
+
+app-title-texts-image {
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+title-texts-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.expertize-main-div {
+    background-color: rgb(59, 103, 187);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+}
+.expertize-secundary-div {
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    padding-bottom: 9rem;
+    gap: 0.7rem;
+}
+
+
+
+.solutions-main-div {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5.5rem;
+    gap: 5rem;
+}
+.solutions-secundary-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+    width: 80%;
+}

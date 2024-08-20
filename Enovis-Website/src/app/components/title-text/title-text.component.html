@@ -1,2 +1,2 @@
-<h1>{{ title }}</h1>
-<p>{{ text }}</p>
+<h3 [ngStyle]="{'--color': color}">{{ title }}</h3>
+<p [ngStyle]="isPColorChangeing ? {'color': color} : {}">{{ text }}</p>
