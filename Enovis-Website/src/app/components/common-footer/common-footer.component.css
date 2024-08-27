@@ -2,48 +2,64 @@
 
 :host {
     height: 440px;
-    width: 96.5%;
+    width: 100%;
     background-color: #3A68B6;
     padding-bottom: 0px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center ;
     gap: 4rem;
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .footer-container {
     display: flex;
-    gap: 6rem;
     align-items: center;
-    justify-content: center;
-    padding-left: 7rem;
-    padding-right: 4rem;
+    justify-content: space-between;
+    align-self: center;
     padding-top: 2.65rem;
-    padding-bottom: 0rem;
+}
+
+.footer-wrapper {
+    width: 100%;
+    max-width: 1224px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
 }
 
 .text-box-div-no-1, .text-box-div-no-2, .text-box-div-no-3 {
     display: flex;
     flex-direction: column;
-    width: 20%;
+    min-width: 0px;
 }
 
 .text-box-div-no-1 {
     gap: 2rem;
     padding-bottom: 5rem;
+    width: 25%;
 }
 
 .text-box-div-no-2 {
-    width: 14%;
+    width: 20%;
     gap: 1.3rem;
 }
 
 .text-box-div-no-3 {
-    width: 20%;
-    padding: 1rem;
+    width: 25%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     gap: 0.8rem;
+}
+
+input {
+    width: calc(100% - 32px);
+    min-width: 0px;
 }
 
 strong, p {
@@ -64,4 +80,5 @@ strong, p {
 
 button {
     width: 100%;
+    min-width: 0px;
 }

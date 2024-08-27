@@ -17,14 +17,13 @@ p {
 a {
     border-bottom: 1px solid white;
     font-family: 'Inter', sans-serif;
-    margin: 1rem;
     font-size: 16px;
     text-decoration: none;
     line-height: 1.5;
     font-weight: 400;
-    margin-top: 1rem;
     color: black;
     align-self: center;
+    transition: background-color 0.3s ease, font-size 0.3s ease;
 }
 
 strong, h3 {

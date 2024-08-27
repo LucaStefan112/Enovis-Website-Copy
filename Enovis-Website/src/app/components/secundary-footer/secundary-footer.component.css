@@ -3,21 +3,34 @@
     display: flex;
     flex-direction: column;
     gap: 0.7rem;
-    padding: 7rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
     align-items: center;
     justify-content: center;
     text-align: center;
+    width: 100%;
 }
 
 div {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 1rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
     padding-top: 5rem;
     text-align: center;
+    width: 100%;
+    max-width: 1224px;
+    min-width: 0px;
+}
+
+.main-footer-div {
+    width: 100%;
+    max-width: 1224px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 0px;
 }
 
 p {
@@ -29,6 +42,7 @@ p {
 
 #text {
     padding: 0.7rem;
+    width: 650px;
 }
 
 #rating {
@@ -41,8 +55,9 @@ p {
 }
 
 img {
-    width: 200px;
+    width: 100%;
     height: 120px;
+    min-width: 0px;
 }
 
 .logo-img {

@@ -1,24 +1,27 @@
 <div class="banner-main-div">
     <video src="https://videos.pexels.com/video-files/7551055/7551055-uhd_3840_2160_30fps.mp4" autoplay="" muted="" loop="" playsinline="" class="block-background__image" style="" poster="https://images.pexels.com/videos/7551055/account-african-analyst-brainstorming-7551055.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;h=630&amp;w=1200"></video>
-    <h1 class="banner-title">Mai multă claritate și performanță în organizații!</h1>
-    <p class="banner-motto">Solicită un demo cu instrumentele noastre pentru controlul și dezvoltarea afacerii.</p>
-    <button class="banner-contact-button" routerLink="/contact">Contactează-ne</button>
     
-    <div class="banner-texts-boxes-div">
-        <app-text-box
-        [title]="'Programe de formare'"
-        [text]="'Programe de creștere a competențelor și echipare a personalului cheie cu metodologii și exemple de bune practici pentru creșterea eficienței proceselor de business.'"
-        ></app-text-box>
-    
-        <app-text-box
-        [title]="'Acceleratoare'"
-        [text]="'Sunt programe de dezvoltare organizațională care facilitează stabilirea și atingerea obiectivelor de creștere a performanței operaționale și scalare a afacerii.'"
-        ></app-text-box>
-    
-        <app-text-box
-        [title]="'Soluții software'"
-        [text]="'Aplicații software dezvoltate de Enovis care, alături de serviciile conexe, asistă personalul relevant din organizație în modelarea proceselor de business, monitorizarea și evaluarea performanței.'"
-        ></app-text-box>
+    <div class="banner-elements-wrapper">
+        <h1 class="banner-title">Mai multă claritate și performanță în organizații!</h1>
+        <p class="banner-motto">Solicită un demo cu instrumentele noastre pentru controlul și dezvoltarea afacerii.</p>
+        <button class="banner-contact-button" routerLink="/contact">Contactează-ne</button>
+        
+        <div class="banner-texts-boxes-div">
+            <app-text-box
+            [title]="'Programe de formare'"
+            [text]="'Programe de creștere a competențelor și echipare a personalului cheie cu metodologii și exemple de bune practici pentru creșterea eficienței proceselor de business.'"
+            ></app-text-box>
+        
+            <app-text-box
+            [title]="'Acceleratoare'"
+            [text]="'Sunt programe de dezvoltare organizațională care facilitează stabilirea și atingerea obiectivelor de creștere a performanței operaționale și scalare a afacerii.'"
+            ></app-text-box>
+        
+            <app-text-box
+            [title]="'Soluții software'"
+            [text]="'Aplicații software dezvoltate de Enovis care, alături de serviciile conexe, asistă personalul relevant din organizație în modelarea proceselor de business, monitorizarea și evaluarea performanței.'"
+            ></app-text-box>
+        </div>
     </div>
 </div>
 
@@ -33,30 +36,32 @@
 ></app-title-texts-image>
 
 <div class="expertize-main-div">
-    <app-title-text
-    [color]="'white'"
-    [title]="'Expertiză diversificată în dezvoltare organizațională'"
-    [text]="'Explorați rețeaua noastră de specialiști în management și digitalizare și veți beneficia de instrumente moderne de control și dezvoltare organizațională. '"
-    ></app-title-text>
-
-    <div class="expertize-secundary-div">
-        <app-image-text-box
-        [title]="'Creșteți competitivitatea prin digitalizare'"
-        [text]="'Fiți în avangardă în lumea digitală de astăzi cu sfaturile și soluțiile oferite de specialiștii noștri în digitalizare .'"
-        [src]="'https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?ixid=M3wzOTE5Mjl8MHwxfHNlYXJjaHwxMHx8dGVjaG5vbG9neSUyMHNvbHV0aW9uc3xlbnwwfHx8fDE3MTk3MDM3NzF8MA&ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=304'"
-        ></app-image-text-box>
+    <div class="expertize-wrapper">
+        <app-title-text
+        [color]="'white'"
+        [title]="'Expertiză diversificată în dezvoltare organizațională'"
+        [text]="'Explorați rețeaua noastră de specialiști în management și digitalizare și veți beneficia de instrumente moderne de control și dezvoltare organizațională. '"
+        ></app-title-text>
     
-        <app-image-text-box
-        [title]="'Sfaturi practice de la o rețea deschisă de specialiști în management'"
-        [text]="'Beneficiați de sprijinul unei rețele de specialiști în management, indiferent de aria provocărilor din organizație.'"
-        [src]="'https://images.unsplash.com/photo-1573164574230-db1d5e960238?ixid=M3wzOTE5Mjl8MHwxfHNlYXJjaHwxMnx8dGVjaG5vbG9neSUyMHNvbHV0aW9uc3xlbnwwfHx8fDE3MTk3MDM3NzF8MA&ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=304'"
-        ></app-image-text-box>
-    
-        <app-image-text-box
-        [title]="'Beneficiați de serviciile unei rețele diversificate de specialiști'"
-        [text]="'Externalizați riscurile de menținere a legăturii cu mai multi furnizori odată,  în cadrul aceluiași program de dezvoltare.'"
-        [src]="'https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixid=M3wzOTE5Mjl8MHwxfHNlYXJjaHwxM3x8dGVjaG5vbG9neSUyMHNvbHV0aW9uc3xlbnwwfHx8fDE3MTk3MDM3NzF8MA&ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=304'"
-        ></app-image-text-box>
+        <div class="expertize-secundary-div">
+            <app-image-text-box
+            [title]="'Creșteți competitivitatea prin digitalizare'"
+            [text]="'Fiți în avangardă în lumea digitală de astăzi cu sfaturile și soluțiile oferite de specialiștii noștri în digitalizare .'"
+            [src]="'https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?ixid=M3wzOTE5Mjl8MHwxfHNlYXJjaHwxMHx8dGVjaG5vbG9neSUyMHNvbHV0aW9uc3xlbnwwfHx8fDE3MTk3MDM3NzF8MA&ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=304'"
+            ></app-image-text-box>
+        
+            <app-image-text-box
+            [title]="'Sfaturi practice de la o rețea deschisă de specialiști în management'"
+            [text]="'Beneficiați de sprijinul unei rețele de specialiști în management, indiferent de aria provocărilor din organizație.'"
+            [src]="'https://images.unsplash.com/photo-1573164574230-db1d5e960238?ixid=M3wzOTE5Mjl8MHwxfHNlYXJjaHwxMnx8dGVjaG5vbG9neSUyMHNvbHV0aW9uc3xlbnwwfHx8fDE3MTk3MDM3NzF8MA&ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=304'"
+            ></app-image-text-box>
+        
+            <app-image-text-box
+            [title]="'Beneficiați de serviciile unei rețele diversificate de specialiști'"
+            [text]="'Externalizați riscurile de menținere a legăturii cu mai multi furnizori odată,  în cadrul aceluiași program de dezvoltare.'"
+            [src]="'https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixid=M3wzOTE5Mjl8MHwxfHNlYXJjaHwxM3x8dGVjaG5vbG9neSUyMHNvbHV0aW9uc3xlbnwwfHx8fDE3MTk3MDM3NzF8MA&ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=304'"
+            ></app-image-text-box>
+        </div>
     </div>
 </div>
 

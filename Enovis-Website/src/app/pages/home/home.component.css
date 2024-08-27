@@ -1,25 +1,43 @@
 :host {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 video {
-    width: 100%;
-    height: 1070px;
     filter: brightness(60%);
     z-index: 1;
+    position: relative;
+
+    width: 100%;
     object-fit: cover;
+    height: 101%;
 }
 .banner-main-div {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5rem;
+    justify-content: center;
     margin-top: 91px;
     opacity: 0.98;
+    height: 1070px;
+    width: 100%;
+}
+.banner-elements-wrapper {
+    width: 100%;
+    max-width: 1224px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    height: 1070px;
 }
 .banner-texts-boxes-div {
     display: flex;
+    width: 100%;
+    min-width: 920px;
     flex-direction: row;
 }
 .banner-title, .banner-motto, .banner-contact-button, .banner-texts-boxes-div {
@@ -28,7 +46,7 @@ video {
 }
 .banner-title {
     top: 80px;
-    width: 40%;
+    width: 650px;
     text-align: center;
 }
 .banner-motto {
@@ -74,14 +92,22 @@ title-texts-div {
 .expertize-main-div {
     background-color: rgb(59, 103, 187);
     display: flex;
-    flex-direction: column;
+    width: 100%;
     align-items: center;
-    padding: 5rem;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.expertize-wrapper {
+    width: 100%;
+    max-width: 1224px;
 }
 .expertize-secundary-div {
     display: flex;
+    width: 100%;
+    max-width: 1224px;
     justify-content: center;
-    padding: 5rem;
+    padding-top: 5rem;
     padding-bottom: 9rem;
     gap: 0.7rem;
 }

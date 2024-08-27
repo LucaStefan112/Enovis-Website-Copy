@@ -1,14 +1,25 @@
-<img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=312,fit=crop,q=95/AE04xnODWbILwLO5/logotransl-m5KbglXWW3H4W49b.png">
 
 <div class="links-div">
+    
+    <div class="img-wrapper">
+        <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=312,fit=crop,q=95/AE04xnODWbILwLO5/logotransl-m5KbglXWW3H4W49b.png">
+    </div>
+
     <a routerLink="/home" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+    
     <a routerLink="/services" routerLinkActive="active-link">Services</a>
-    <div class="dropdownmenu-container">
+
+    <div class="arrow-character-div">
         <a class="software-solutions-link" routerLink="/software-solutions" routerLinkActive="active-link">Software Solutions</a>
+        
+        <section>
+            <p class="arrow-character">▼</p>
+        </section>
+        
         <div class="dropdownmenu-content">
             <a routerLink="/clarevo" routerLinkActive="active-link">Clarevo</a>
-        </div>
-      </div>
-    <div class="arrow-character-div"><a class="arrow-character">▼</a></div>
-    <a routerLink="/contact">Contact</a>
+        </div>    
+    </div>
+
+    <a routerLink="/contact" routerLinkActive="active-link">Contact</a>
 </div>
