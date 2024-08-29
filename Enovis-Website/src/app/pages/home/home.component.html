@@ -6,7 +6,7 @@
         <p class="banner-motto">Solicită un demo cu instrumentele noastre pentru controlul și dezvoltarea afacerii.</p>
         <button class="banner-contact-button" routerLink="/contact">Contactează-ne</button>
         
-        <div class="banner-texts-boxes-div">
+        <div class="banner-texts-boxes-div hidden">
             <app-text-box
             [title]="'Programe de formare'"
             [text]="'Programe de creștere a competențelor și echipare a personalului cheie cu metodologii și exemple de bune practici pentru creșterea eficienței proceselor de business.'"
@@ -37,26 +37,26 @@
 
 <div class="expertize-main-div">
     <div class="expertize-wrapper">
-        <app-title-text
+        <app-title-text class="animate"
         [color]="'white'"
         [title]="'Expertiză diversificată în dezvoltare organizațională'"
         [text]="'Explorați rețeaua noastră de specialiști în management și digitalizare și veți beneficia de instrumente moderne de control și dezvoltare organizațională. '"
         ></app-title-text>
     
         <div class="expertize-secundary-div">
-            <app-image-text-box
+            <app-image-text-box class="animate"
             [title]="'Creșteți competitivitatea prin digitalizare'"
             [text]="'Fiți în avangardă în lumea digitală de astăzi cu sfaturile și soluțiile oferite de specialiștii noștri în digitalizare .'"
             [src]="'https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?ixid=M3wzOTE5Mjl8MHwxfHNlYXJjaHwxMHx8dGVjaG5vbG9neSUyMHNvbHV0aW9uc3xlbnwwfHx8fDE3MTk3MDM3NzF8MA&ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=304'"
             ></app-image-text-box>
         
-            <app-image-text-box
+            <app-image-text-box class="animate"
             [title]="'Sfaturi practice de la o rețea deschisă de specialiști în management'"
             [text]="'Beneficiați de sprijinul unei rețele de specialiști în management, indiferent de aria provocărilor din organizație.'"
             [src]="'https://images.unsplash.com/photo-1573164574230-db1d5e960238?ixid=M3wzOTE5Mjl8MHwxfHNlYXJjaHwxMnx8dGVjaG5vbG9neSUyMHNvbHV0aW9uc3xlbnwwfHx8fDE3MTk3MDM3NzF8MA&ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=304'"
             ></app-image-text-box>
         
-            <app-image-text-box
+            <app-image-text-box class="animate"
             [title]="'Beneficiați de serviciile unei rețele diversificate de specialiști'"
             [text]="'Externalizați riscurile de menținere a legăturii cu mai multi furnizori odată,  în cadrul aceluiași program de dezvoltare.'"
             [src]="'https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixid=M3wzOTE5Mjl8MHwxfHNlYXJjaHwxM3x8dGVjaG5vbG9neSUyMHNvbHV0aW9uc3xlbnwwfHx8fDE3MTk3MDM3NzF8MA&ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=304'"

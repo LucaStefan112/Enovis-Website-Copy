@@ -22,3 +22,10 @@
     padding-top: 2.5rem;
     padding-bottom: 1.5rem;
 }
+
+@media only screen and (max-width: 920px) {
+    .software-solutions-div {
+        display: flex;
+        flex-direction: column;
+    }
+}

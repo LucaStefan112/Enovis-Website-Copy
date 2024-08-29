@@ -19,3 +19,9 @@ h3 {
 p {
     width: 50%;
 }
+
+@media only screen and (max-width: 920px) {
+    h3, p {
+        width: 328px;
+    }
+}

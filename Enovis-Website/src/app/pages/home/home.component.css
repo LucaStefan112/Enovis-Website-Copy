@@ -38,6 +38,7 @@ video {
     display: flex;
     width: 100%;
     min-width: 920px;
+    max-width: 1020px;
     flex-direction: row;
 }
 .banner-title, .banner-motto, .banner-contact-button, .banner-texts-boxes-div {
@@ -72,8 +73,6 @@ video {
     top: 580px;
     gap: 0.7rem;
 }
-
-
 
 app-title-texts-image {
     padding-top: 3rem;
@@ -129,4 +128,53 @@ title-texts-div {
     justify-content: center;
     gap: 7rem;
     width: 80%;
+}
+
+app-nav-bar {
+    margin-right: 10rem;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 920px) {
+    .banner-title, .banner-motto {
+        width: 328px;
+    }
+
+    .banner-texts-boxes-div {
+        flex-direction: column;
+    }
+
+    .banner-main-div, video, .banner-elements-wrapper {
+        height: 1500px;
+    }
+
+    .banner-motto {
+        top: 300px;
+        text-align: center;
+    }
+
+    .banner-contact-button {
+        top: 370px;
+        width: 160px;
+    }
+
+    .banner-texts-boxes-div {
+        top: 420px;
+        min-width: 0px;
+    }
+
+    app-text-box {
+        margin-top: 3rem;
+        align-self: center;
+        width: 328px;
+        box-sizing: border-box;
+    }
+
+    .expertize-secundary-div {
+        flex-direction: column;
+        gap: 4rem;
+        padding-top: 1rem;
+        padding-bottom: 0rem;
+    }
+
 }

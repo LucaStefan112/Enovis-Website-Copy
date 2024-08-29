@@ -24,3 +24,14 @@
 p {
     font-size: 14px;
 }
+
+@media screen and (max-width: 920px) {
+    :host {
+        width: 328px;
+        align-items: center;
+    }
+
+    p, h3 {
+        width: 328px;
+    }
+}

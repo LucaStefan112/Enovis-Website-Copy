@@ -69,6 +69,34 @@ app-contact-form {
 }
 
 app-contact-text-map {
-    padding-top: 7.5rem;
+    padding-top: 2rem;
     padding-bottom: 7.5rem;
+}
+
+@media screen and (max-width: 920px) {
+    .reviews-div {
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    .feedback-div {
+        gap: 2rem;
+    }
+
+    .reviews-div {
+        padding-bottom: 5rem;
+    }
+
+    app-review-container {
+        padding-bottom: 5rem;
+    }
+
+    h1 {
+        font-size: 32px;
+        width: 328px;
+    }
+
+    #banner-subtitle-p {
+        width: 328px;
+    }
 }

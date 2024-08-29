@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { NavigationEnd, RouterOutlet } from '@angular/router';
 import { ImageTextBoxComponent } from './components/image-text-box/image-text-box.component';
 import { TextBoxComponent } from './components/text-box/text-box.component';
 import { ImageTextViewComponent } from './components/image-text-view/image-text-view.component';  
@@ -16,6 +16,7 @@ import { TextImageRightComponent } from './components/text-image-right/text-imag
 import { ServicesComponent } from './pages/services/services.component';
 import { SoftwareSolutionsComponent } from './pages/software-solutions/software-solutions.component';
 import { ClarevoComponent } from './pages/clarevo/clarevo.component';
+import { Router, Event as RouterEvent } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -44,4 +45,14 @@ import { ClarevoComponent } from './pages/clarevo/clarevo.component';
 })
 export class AppComponent {
   title = 'Enovis-Website';
+
+  constructor(private router: Router) { }
+
+  ngOnInit() {
+    this.router.events.subscribe((event) => {
+      if (event instanceof NavigationEnd) {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    });
+  }
 }

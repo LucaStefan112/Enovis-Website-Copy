@@ -19,3 +19,10 @@ div {
     gap: 1rem;
     padding: 2.5rem;
 }
+
+@media only screen and (max-width: 920px) {
+    :host {
+        width: 328px;
+        align-self: center;
+    }
+}

@@ -33,3 +33,14 @@ img {
 div .strong-size2 {
     margin-right: 2rem;
 }
+
+@media only screen and (max-width: 920px) {
+    :host {
+        width: 328px;
+        border-radius: 5%;
+    }
+
+    .strong-size2 {
+        padding-bottom: 2rem;
+    }
+}

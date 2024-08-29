@@ -1,6 +1,6 @@
 :host {
     background-color: white;
-    width: 100%;
+    width: calc(100%);
     height: 91px;
     padding: 0;
     margin: 0;
@@ -13,6 +13,7 @@
     z-index: 1000;
     top: 0; 
     box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    box-sizing: border-box;
 }
 
 a:hover, .active-link {
@@ -31,7 +32,7 @@ img {
     min-width: 0px;
 }
 
-.links-div {
+.navbar-windows {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -82,10 +83,118 @@ img {
     box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
     height: 58px;
     position: absolute;
-    top: 30px;
+    top: 25px;
     left: 0px;
 }
 
 .dropdownmenu-content a {
-    padding: 1rem;
+    margin: 1rem;
+}
+
+.navbar-mobile-banner {
+    display: none;
+}
+
+.navbar-mobile-content {
+    display: none;
+}
+
+
+@media only screen and (max-width: 920px) {
+    .navbar-windows {
+        display: none;
+    }
+
+    img {
+        width: 134px;
+        height: 44px;
+    }
+
+    :host {
+        height: 296px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0rem;
+        background-color: transparent;
+        box-shadow: 0px 4px 8px rgba(0,0,0,0);
+    }
+
+    .expand-content-button span {
+        display: block;
+        background-color: black;
+        width: 24px;
+        height: 2px;
+        border-radius: 2px;
+        transition-property: transform, opacity, width;
+        transition-duration: .25s;
+        transition-timing-function: ease-in-out;
+        transition-delay: .1s;
+        transform: rotate(0);
+        transform-origin: left center;
+    }
+
+    .expand-content-button {
+        width: 24px;
+        height: 18px;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .navbar-mobile-banner {
+        box-sizing: border-box;
+        padding: 24px 16px;
+        display: flex;
+        justify-content: space-between;
+        height: 92px;
+        width: 100%;
+        background-color: white;
+        box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+        position: absolute;
+        top: 0px;
+    }
+
+    .navbar-mobile-content {
+        box-sizing: border-box;
+        padding: 24px 16px;
+        width: 100%;
+        height: auto;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        gap: 20px;
+        transition-property: transform, opacity, width;
+        transition-duration: .25s;
+        transition-timing-function: ease-in-out;
+        transition-delay: .1s;
+        position: absolute;
+        top: 91px;
+    }
+
+    a, p {
+        color: black;
+    }
+
+    a {
+        align-self: self-end;
+    }
+
+    .software-solutions-div {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        height: auto;
+        justify-content: flex-end;
+    }
+
+    .software-solutions-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-right: 2rem;
+    }
+
 }

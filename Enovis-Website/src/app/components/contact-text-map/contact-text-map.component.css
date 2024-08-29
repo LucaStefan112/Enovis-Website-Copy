@@ -41,3 +41,31 @@ iframe {
 .adress-mail-div {
     gap: 1rem;
 }
+
+@media screen and (max-width: 920px) {
+    :host {
+        flex-direction: column;
+        width: 328px;
+        gap: 0rem;
+        align-items: start;
+    }
+
+    iframe, p, strong {
+        width: 328px;
+    }
+
+    h3 {
+        font-size: 32px;
+        width: 328px;
+    }
+
+    iframe {
+        height: 230px;
+        margin-top: -3rem;
+    }
+
+    .adress-mail-div {
+        gap: 2rem;
+    }
+
+}
