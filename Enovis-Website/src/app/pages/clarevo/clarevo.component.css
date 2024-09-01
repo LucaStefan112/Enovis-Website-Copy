@@ -7,7 +7,6 @@
 }
 
 app-title-texts-image {
-    width: 60%;
     padding-bottom: 5rem;
 }
 
@@ -15,4 +14,30 @@ h1 {
     font-size: 4rem;
     padding: 5rem;
     color: black;
+}
+
+.right {
+    display: none;
+}
+
+.left {
+    display: flex;
+}
+
+@media only screen and (max-width: 920px) {
+    .right {
+        display: flex;
+    }
+    
+    .left {
+        display: none;
+    }
+
+    app-title-texts-image {
+        padding-bottom: 0rem;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
 }

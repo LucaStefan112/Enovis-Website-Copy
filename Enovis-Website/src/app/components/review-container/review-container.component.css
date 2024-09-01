@@ -1,7 +1,7 @@
 :host {
     display: block;
-    width: 600px;
-    height: 300px;
+    width: 100%;
+    height: auto;
     background-color: rgb(241, 239, 239, 0.25);
 }
 
@@ -12,7 +12,7 @@
 
 .text-p {
     padding: 1.5rem 3rem 2.4rem 3rem;
-    height: 60px;
+    height: auto;
 }
 
 .profile-div {
@@ -39,4 +39,41 @@ img {
 
 strong {
     font-size: 16px;
+}
+
+@media (max-width: 920px) {
+    :host {
+        width: 328px;
+        height: auto;
+    }
+
+    p {
+        width: auto;
+    }
+
+    .profile-div {
+        flex-direction: column;
+    }
+
+    * {
+        align-self: center;
+        text-align: center;
+    }
+
+    img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .text-p {
+        padding-bottom: 0rem;
+    }
+
+    .rating-h6 {
+        padding-top: 1rem;
+    }
+
+    .data-div {
+        margin-bottom: 6rem;
+    }
 }

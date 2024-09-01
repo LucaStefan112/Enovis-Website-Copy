@@ -1,14 +1,14 @@
 <div class="banner-div">
     <img src="https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?ixid=M3wzOTE5Mjl8MHwxfHNlYXJjaHw0fHx0ZWNobm9sb2d5JTIwc29sdXRpb25zfGVufDB8fHx8MTcxOTcwMzc3MXww&amp;ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1920">
     <h1>Contactează-ne</h1>
-    <p>Contactați echipa noastră pentru consultanță de specialitate și soluții.</p>
-    <app-contact-form></app-contact-form>
+    <p id="banner-subtitle-p">Contactați echipa noastră pentru consultanță de specialitate și soluții.</p>
+    <app-contact-form class="animate"></app-contact-form>
 </div>
 
-<app-contact-text-map></app-contact-text-map>
+<app-contact-text-map class="animate"></app-contact-text-map>
 
 <div class="feedback-div">
-    <app-title-text
+    <app-title-text class="animate"
     [title]="'Clienți Mulțumiți'"
     [text]="'Citiți părerile clienților noștri mulțumiți despre serviciile noastre.'"
     [color]="'black'"
@@ -16,14 +16,14 @@
 
     <div class="reviews-div">
         
-        <app-review-container
+        <app-review-container class="animate"
         [text]="'Colaborarea cu Enovis a fost un moment de cotitură pentru afacerea noastră. Soluțiile lor de software personalizate au sporit semnificativ eficiența și productivitatea noastră.'"
         [location]="'New York'"
         [name]="'Michael Johnson'"
         [src]="'https://images.unsplash.com/photo-1488751045188-3c55bbf9a3fa?ixid=M3wzOTE5Mjl8MHwxfHNlYXJjaHwyMnx8dGVjaG5vbG9neSUyMHNvbHV0aW9uc3xlbnwwfHx8fDE3MTk3MDM3NzF8MA&ixlib=rb-4.0.3&auto=format&fit=crop&w=48&h=48'"
         ></app-review-container>
 
-        <app-review-container
+        <app-review-container class="animate"
         [text]="'Echipa Enovis a oferit suport și îndrumare excepțională pe tot parcursul procesului. Recomandăm cu încredere!'"
         [location]="'Dallas'"
         [name]="'Samantha Green'"

@@ -1,7 +1,8 @@
 :host {
     display: block;
-    width: 336px;
-    height: 157px;
+    width: 100%;
+    max-width: 336px;
+    height: auto;
     padding: 2rem;
 
     text-align: center;
@@ -9,6 +10,7 @@
     flex-direction: column;
     gap: 1.2rem;
     background-color: rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
 }
 
 p, strong { 

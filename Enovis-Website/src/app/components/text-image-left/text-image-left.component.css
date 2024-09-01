@@ -1,8 +1,9 @@
 :host {
     display: flex;
-    padding: 2.5rem;
-    padding-left: 21rem;
-    padding-right: 14rem;
+    padding-top: 2.5rem;
+    max-width: 1224px;
+    width: 100%;
+    padding-bottom: 2.5rem;
     align-items: center;
     justify-content: center;
     background-color: white;
@@ -18,7 +19,7 @@ div {
 }
 
 img {
-    width: 600px;
+    width: 50%;
     height: 400px;
 }
 

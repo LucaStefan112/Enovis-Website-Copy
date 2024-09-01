@@ -1,11 +1,13 @@
 :host {
     display: flex;
-    padding: 2.5rem;
-    padding-left: 20rem;
-    padding-right: 22rem;
+    max-width: 1224px;
+    width: 100%;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
     align-items: center;
     justify-content: center;
     background-color: white;
+    gap: 6rem;
 }
 
 div {
@@ -17,7 +19,7 @@ div {
 }
 
 img {
-    width: 600px;
+    width: 50%;
     height: 400px;
 }
 
@@ -26,4 +28,25 @@ p {
     padding: 1rem;
     padding-left: 0rem;
     padding-top: 0rem;
+}
+
+@media only screen and (max-width: 920px) {
+    :host {
+        flex-direction: column;
+        gap: 0rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    p, strong, img {
+        width: 328px;
+        align-self: center;
+    }
+
+    img {
+        height: 264px;
+    }
+
+    .first {
+    }
 }

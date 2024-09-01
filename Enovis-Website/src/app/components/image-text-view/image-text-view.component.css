@@ -1,6 +1,6 @@
 :host {
     display: block;
-    width: 503px;
+    width: 100%;
     position: relative;
     background-color: white;
     border-radius: 5%;
@@ -12,6 +12,7 @@ div {
     position: relative;
     padding: 0.5rem;
     padding-left: 0rem;
+    width: 100%;
 }
 
 #arrow {
@@ -26,4 +27,20 @@ div {
 
 img {
     border-radius: 5%;
+    width: 100%;
+}
+
+div .strong-size2 {
+    margin-right: 2rem;
+}
+
+@media only screen and (max-width: 920px) {
+    :host {
+        width: 328px;
+        border-radius: 5%;
+    }
+
+    .strong-size2 {
+        padding-bottom: 2rem;
+    }
 }

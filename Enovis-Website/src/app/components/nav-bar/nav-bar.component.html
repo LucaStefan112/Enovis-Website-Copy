@@ -1,14 +1,66 @@
-<img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=312,fit=crop,q=95/AE04xnODWbILwLO5/logotransl-m5KbglXWW3H4W49b.png">
 
-<div class="links-div">
+<div class="navbar-windows">
+    
+    <div class="img-wrapper">
+        <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=312,fit=crop,q=95/AE04xnODWbILwLO5/logotransl-m5KbglXWW3H4W49b.png">
+    </div>
+
     <a routerLink="/home" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+    
     <a routerLink="/services" routerLinkActive="active-link">Services</a>
-    <div class="dropdownmenu-container">
+
+    <div class="arrow-character-div">
         <a class="software-solutions-link" routerLink="/software-solutions" routerLinkActive="active-link">Software Solutions</a>
+        
+        <section>
+            <p class="arrow-character">▼</p>
+        </section>
+        
         <div class="dropdownmenu-content">
             <a routerLink="/clarevo" routerLinkActive="active-link">Clarevo</a>
+        </div>    
+    </div>
+
+    <a routerLink="/contact" routerLinkActive="active-link">Contact</a>
+</div>
+
+<div class="navbar-mobile-banner">
+    <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=312,fit=crop,q=95/AE04xnODWbILwLO5/logotransl-m5KbglXWW3H4W49b.png">
+    <div class="expand-content-button" (click)="toggleNavbarVisibility()">
+        <span [ngStyle]="{
+            transform: isNavbarVisible ? 'rotate(42deg)' : 'none',
+          }"></span>
+        <span [ngStyle]="{
+            opacity: isNavbarVisible ? '0' : '1',
+          }"></span>
+        <span [ngStyle]="{
+            transform: isNavbarVisible ? 'rotate(-42deg)' : 'none',
+          }"></span>
+    </div>
+</div>
+
+<div class="navbar-mobile-content" [ngStyle]="{
+    opacity: isNavbarVisible ? '1' : '0',
+    boxShadow: isNavbarVisible ? '0px 4px 8px rgba(0,0,0,0.2)' : '0px 4px 8px rgba(0,0,0,0)'
+}">
+
+    <a (click)="hideNavbar()" routerLink="/home" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+        
+    <a (click)="hideNavbar()" routerLink="/services" routerLinkActive="active-link">Services</a>
+    
+    <div class="mobile-arrow-character-div">
+        <div class="software-solutions-div">
+            <a (click)="hideNavbar()" class="software-solutions-link" routerLink="/software-solutions" routerLinkActive="active-link">Software Solutions</a>
+                
+            <section>
+                <p class="mobile-arrow-character" (click)="toggleSoftwareSolutions()">▼</p>
+            </section>
         </div>
-      </div>
-    <div class="arrow-character-div"><a class="arrow-character">▼</a></div>
-    <a routerLink="/contact">Contact</a>
+    </div>
+            
+    <div class="software-solutions-links" *ngIf="isSoftwareSolutions">
+        <a (click)="hideNavbar()" routerLink="/clarevo" routerLinkActive="active-link">Clarevo</a>
+    </div>
+
+    <a (click)="hideNavbar()" routerLink="/contact" routerLinkActive="active-link">Contact</a>
 </div>

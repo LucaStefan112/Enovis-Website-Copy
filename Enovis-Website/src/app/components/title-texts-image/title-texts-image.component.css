@@ -1,19 +1,20 @@
 :host {
-    background-color: white;
     display: flex;
     flex-direction: column;
     width: 100%;
+    max-width: 1224px;
+    align-self: center;
 }
 
 h3 {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    align-self: center;
+    text-align: center;
 }
 
 .text-box-div {
     height: 150px;
-    width: 550px;
+    width: 100%;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -26,18 +27,69 @@ h3 {
     flex-direction: row;
     gap: 8rem;
     background-color: white;
-    height: 150px;
-    padding: 1rem;
+    height: auto;
+    width: 100%;
+    max-width: 1200px;
+    align-self: center;
 }
 
 img {
     border-radius: 20px;
-    width: 1224px;
+    width: 100%;
+    max-width: 1224px;
     height: 440px;
     align-self: center;
+    margin-top: 1rem;
 }
 
 p {
     color: gray;
     width: 90%;
+}
+
+
+
+
+@media only screen and (max-width: 920px) {
+    .text-box-div {
+        height: auto;
+    }
+
+    .text-boxes-container {
+        flex-direction: column;
+    }
+
+    div, img {
+        max-width: 328px;
+        width: 100%;
+    }
+
+    img {
+        height: 240px;
+    }
+
+    .text-boxes-container {
+        gap: 2rem;
+    }
+
+    h3, p {
+        width: 328px;
+    }
+
+    h3 {
+        padding-top: 0px;
+    }
+
+    .text-box-div {
+        gap: 1rem;
+    }
+
+    img {
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+    }
+
+    h3 {
+        align-self: center;
+    }
 }
